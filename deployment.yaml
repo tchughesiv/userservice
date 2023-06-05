@@ -28,4 +28,4 @@ spec:
       volumes:
         - name: internal-service-cert-volume
           secret:
-            secretName: keycloak-user-service
+            secretName: keycloak-internal-service-cert
